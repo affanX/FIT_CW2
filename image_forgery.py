@@ -36,7 +36,7 @@ def check_forgery(original_image_path, altered_image_path):
 
 if __name__ == "__main__":
     # Provide paths to original and altered images
-    original_image_path = "C:/Users/Imran/OneDrive/Desktop/affanX/32_original.jpg"
-    altered_image_path = "C:/Users/Imran/OneDrive/Desktop/affanX/32_forged.jpg"
+    original_image_path = "/home/ubuntu/FIT_CW2/32_original.jpg"
+    altered_image_path = "/home/ubuntu/FIT_CW2/32_forged.jpg"
 
     check_forgery(original_image_path, altered_image_path)
